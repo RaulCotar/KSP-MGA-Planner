@@ -12,14 +12,14 @@
 # - name: Kerbol Origins
 #   folderName: ko
 
-- name: Real Solar System (KSP RSS)
-  folderName: rss
-
 # - name: Stock (KSP2)
 #   folderName: stock2
 
 - name: AE Project (based on KSP RSS)
   folderName: project
+
+- name: Real Solar System (KSP RSS)
+  folderName: rss
 
 # Template:
 # - name: New Solar System

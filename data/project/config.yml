@@ -4,7 +4,7 @@ rendering:
   scale:              1.0e-9        # scale of the objects compared to real values
   fov:                80            # field of view of the camera
   nearPlane:          0.0000001     # near plane distance
-  farPlane:           10000         # far plane distance
+  farPlane:           100000        # far plane distance
 
 solarSystem:
   planetFarSize:      0.1          # size of planet sprites
@@ -22,7 +22,7 @@ orbit:
   epochOffset:        -631152000    # offset for bodies' epochs (reference for epoch 0), in seconds
 
 camera:
-  startDist:          1000          # distance from sun of start
+  startDist:          2000          # distance from sun of start
   maxDist:            20000         # maximum distance that can be zoomed out
   minDistRadii:       1.5           # minimum distance to a body, in radii of the focused body
   dampingFactor:      0.5           # camera motion damping
@@ -30,7 +30,7 @@ camera:
 
 time:
   type:               real          # type of the time system: either base or real
-  initialDate:        0             # the initial date, in seconds, from January 1st 1970 (real only)
+  initialDate:        1987200000    # the initial date, in seconds, from January 1st 1970 (real only)
 
 flybySequence:
   radiusSamples:      10            # number of samples radius samples to test when evaluating a sequence feasability
@@ -68,4 +68,4 @@ workers:
 trajectoryDraw:
   samplePoints:       2500          # number sample points for each tarjectory arc draw
   spritesSize:        0.08          # size of the sprites for maneuvers, encounters, escapes
-  podSpriteSize:      0.06          # size of the pod sprite
+  podSpriteSize:      0.07          # size of the pod sprite
