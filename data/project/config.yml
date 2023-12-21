@@ -33,10 +33,10 @@ time:
   initialDate:        1987200000    # the initial date, in seconds, from January 1st 1970 (real only)
 
 flybySequence:
-  radiusSamples:      10            # number of samples radius samples to test when evaluating a sequence feasability
-  initVelMaxScale:    10            # upper bound of ejection velocity range, as factor of direct hohmann transfert to the next body
-  initVelSamples:     20            # number of samples for start body ejection between direct hohmann transfert and initVelMaxScale
-  maxPropositions:    15            # maximum number of sequences propositions after sequence generation
+  radiusSamples:      12            # number of samples radius samples to test when evaluating a sequence feasability
+  initVelMaxScale:    50            # upper bound of ejection velocity range, as factor of direct hohmann transfert to the next body
+  initVelSamples:     22            # number of samples for start body ejection between direct hohmann transfert and initVelMaxScale
+  maxPropositions:    18            # maximum number of sequences propositions after sequence generation
   maxEvalStatuses:    100000        # maximum number status considered when evaluating a sequence before timeout
   maxEvalSequences:   100000        # maximum number of sequences to evaluate
   splitLimit:         2500          # maximum input chunk size per worker in the worker pool, exceeded if all workers are already used
@@ -48,17 +48,17 @@ trajectorySearch:
   crossProbaIncr:     8             # The exponential speed factor by which CR increases from its minium to maximum
   diffWeight:         0.3           # differential weight (F) of the DE algorithm
   depDVScaleMin:      1.01          # the minimum ejection velocity, in terms of scale of the minimum velocity required to escape the body
-  depDVScaleMax:      11            # the maximum ejection velocity
+  depDVScaleMax:      15            # the maximum ejection velocity
   dsmOffsetMin:       0.01          # the minimum offset of a DSM on an interplanetary leg
   dsmOffsetMax:       0.99          # the maximum offset of a DSM
   minLegDuration:     21600         # the minimum duration of a leg (s)
-  fbRadiusMaxScale:   20            # the maximum periapsis height of a flyby orbit, in terms of times radius of the body
-  popSizeDimScale:    750           # the population size is equal to this value times the dimension of the search space (number of compnents agent vector)
+  fbRadiusMaxScale:   80            # the maximum periapsis height of a flyby orbit, in terms of times radius of the body
+  popSizeDimScale:    800           # the population size is equal to this value times the dimension of the search space (number of compnents agent vector)
   maxGenerations:     300           # Maximum number of evolution iterations
 
 editor:
   defaultOrigin:      2             # default origin body on start (index of Kerbin in the selector)
-  defaultDest:        32            # default destination body on start (index of Moho in the selector)
+  defaultDest:        36            # default destination body on start (index of Moho in the selector)
   defaultAltitude:    300           # default altitude from the default body (in km above surface)
   defaultMaxDuration: 11000         # default duration limit for a trajectory (in number of days)
 
