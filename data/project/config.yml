@@ -4,11 +4,11 @@ rendering:
   scale:              1.0e-9        # scale of the objects compared to real values
   fov:                80            # field of view of the camera
   nearPlane:          0.0000001     # near plane distance
-  farPlane:           100000        # far plane distance
+  farPlane:           1000000       # far plane distance
 
 solarSystem:
-  planetFarSize:      0.1          # size of planet sprites
-  satFarSize:         0.04          # size of satellites sprites
+  planetFarSize:      0.04          # size of planet sprites
+  satFarSize:         0.03          # size of satellites sprites
   satDispRadii:       10            # minimum display distance of satellites (in radii of the scaled semi major axis)
   spriteDispSOIMul:   18            # minimum display distance of sprites (in multiple of the SOI of the body to which they are attached)
   mouseFocusDst:      25            # minimum distance to between body on screen and mouse to set focus (in pixels)
@@ -58,7 +58,7 @@ trajectorySearch:
 
 editor:
   defaultOrigin:      2             # default origin body on start (index of Kerbin in the selector)
-  defaultDest:        33            # default destination body on start (index of Moho in the selector)
+  defaultDest:        32            # default destination body on start (index of Moho in the selector)
   defaultAltitude:    300           # default altitude from the default body (in km above surface)
   defaultMaxDuration: 11000         # default duration limit for a trajectory (in number of days)
 

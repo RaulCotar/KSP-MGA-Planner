@@ -602,12 +602,12 @@
   stdGravParam:       10
   soi:                481961761240
   orbit:
-    semiMajorAxis:    8790897364500
-    eccentricity:     0.99999999
+    semiMajorAxis:    29919570000000
+    eccentricity:     0
     inclination:      0
     argOfPeriapsis:   0
     ascNodeLongitude: 0
-  meanAnomaly0:       1.56
+  meanAnomaly0:       0
   epoch:              0
   orbiting:           0
   color:              0x11ff11

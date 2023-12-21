@@ -18,8 +18,8 @@
 - name: AE Project (based on KSP RSS)
   folderName: project
 
-- name: Real Solar System (KSP RSS)
-  folderName: rss
+# - name: Real Solar System (KSP RSS)
+#   folderName: rss
 
 # Template:
 # - name: New Solar System
