@@ -668,3 +668,79 @@
   epoch:              0
   orbiting:           0
   color:              0x11ff11
+
+- !!map
+  id:                 37
+  name:               1kAU M=0
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    1.495979e+11
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       0
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
+
+- !!map
+  id:                 38
+  name:               1kAU M=pi/2
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    1.495979e+11
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       1.57
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
+
+- !!map
+  id:                 39
+  name:               1kAU M=pi
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    1.495979e+11
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       3.14
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
+
+- !!map
+  id:                 40
+  name:               1kAU M=3/2pi
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    1.495979e+11
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       4.71
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
