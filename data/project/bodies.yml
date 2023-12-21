@@ -632,7 +632,7 @@
   color:              0x11ff11
 
 - !!map
-  id:                 34
+  id:                 35
   name:               201AU M=pi
   radius:             10
   atmosphereAlt:      10
@@ -651,7 +651,7 @@
   color:              0x11ff11
 
 - !!map
-  id:                 34
+  id:                 36
   name:               201AU M=3/2pi
   radius:             10
   atmosphereAlt:      10
