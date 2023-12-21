@@ -12,7 +12,7 @@ solarSystem:
   satDispRadii:       10            # minimum display distance of satellites (in radii of the scaled semi major axis)
   spriteDispSOIMul:   18            # minimum display distance of sprites (in multiple of the SOI of the body to which they are attached)
   mouseFocusDst:      25            # minimum distance to between body on screen and mouse to set focus (in pixels)
-  soiOpacity:         0.3           # the opacity of SOI spheres
+  soiOpacity:         0.2           # the opacity of SOI spheres
 
 orbit:
   satSampPoints:      1000          # sample points for satellites' orbits
@@ -23,7 +23,7 @@ orbit:
 
 camera:
   startDist:          1500          # distance from sun of start
-  maxDist:            300000        # maximum distance that can be zoomed out
+  maxDist:            100000        # maximum distance that can be zoomed out
   minDistRadii:       1.5           # minimum distance to a body, in radii of the focused body
   dampingFactor:      0.5           # camera motion damping
   rotateSpeed:        0.5           # camera rotation speed
@@ -34,7 +34,7 @@ time:
 
 flybySequence:
   radiusSamples:      10            # number of samples radius samples to test when evaluating a sequence feasability
-  initVelMaxScale:    4             # upper bound of ejection velocity range, as factor of direct hohmann transfert to the next body
+  initVelMaxScale:    10            # upper bound of ejection velocity range, as factor of direct hohmann transfert to the next body
   initVelSamples:     20            # number of samples for start body ejection between direct hohmann transfert and initVelMaxScale
   maxPropositions:    15            # maximum number of sequences propositions after sequence generation
   maxEvalStatuses:    100000        # maximum number status considered when evaluating a sequence before timeout
@@ -48,7 +48,7 @@ trajectorySearch:
   crossProbaIncr:     8             # The exponential speed factor by which CR increases from its minium to maximum
   diffWeight:         0.3           # differential weight (F) of the DE algorithm
   depDVScaleMin:      1.01          # the minimum ejection velocity, in terms of scale of the minimum velocity required to escape the body
-  depDVScaleMax:      4             # the maximum ejection velocity
+  depDVScaleMax:      11            # the maximum ejection velocity
   dsmOffsetMin:       0.01          # the minimum offset of a DSM on an interplanetary leg
   dsmOffsetMax:       0.99          # the maximum offset of a DSM
   minLegDuration:     21600         # the minimum duration of a leg (s)
