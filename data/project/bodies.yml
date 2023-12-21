@@ -593,18 +593,17 @@
   orbiting:           31
   color:              0xc5b1a4
 
-
 - !!map
   id:                 33
   name:               Fictitious-D
   radius:             1
   atmosphereAlt:      1
-  mass:               1
-  stdGravParam:       1
+  mass:               10
+  stdGravParam:       10
   soi:                .inf
   orbit:
     semiMajorAxis:    87908973645
-    eccentricity:     1
+    eccentricity:     0.9999
     inclination:      0
     argOfPeriapsis:   0
     ascNodeLongitude: 0

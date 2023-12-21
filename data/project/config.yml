@@ -2,7 +2,7 @@
 
 rendering:
   scale:              1.0e-9        # scale of the objects compared to real values
-  fov:                75            # field of view of the camera
+  fov:                80            # field of view of the camera
   nearPlane:          0.0000001     # near plane distance
   farPlane:           10000         # far plane distance
 
