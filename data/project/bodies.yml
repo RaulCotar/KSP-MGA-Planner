@@ -603,11 +603,11 @@
   soi:                481961761240
   orbit:
     semiMajorAxis:    8790897364500
-    eccentricity:     0.9999
+    eccentricity:     0.99999999
     inclination:      0
     argOfPeriapsis:   0
     ascNodeLongitude: 0
-  meanAnomaly0:       0
+  meanAnomaly0:       1.56
   epoch:              0
   orbiting:           0
   color:              0x11ff11
