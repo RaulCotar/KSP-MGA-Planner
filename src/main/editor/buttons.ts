@@ -3,6 +3,7 @@ export class Button {
 
     constructor(id: string) {
         this._btn = document.getElementById(id) as HTMLButtonElement;
+        this._btn.disabled = false;
     }
 
     public enable(){
