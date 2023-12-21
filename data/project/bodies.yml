@@ -595,19 +595,76 @@
 
 - !!map
   id:                 33
-  name:               FictitiousD
+  name:               201AU M=0
   radius:             10
   atmosphereAlt:      10
   mass:               10
   stdGravParam:       10
   soi:                481961761240
   orbit:
-    semiMajorAxis:    29919570000000
+    semiMajorAxis:    3.006917e+13
     eccentricity:     0
     inclination:      0
     argOfPeriapsis:   0
     ascNodeLongitude: 0
   meanAnomaly0:       0
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
+
+- !!map
+  id:                 34
+  name:               201AU M=pi/2
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    3.006917e+13
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       1.57
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
+
+- !!map
+  id:                 34
+  name:               201AU M=pi
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    3.006917e+13
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       3.14
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
+
+- !!map
+  id:                 34
+  name:               201AU M=3/2pi
+  radius:             10
+  atmosphereAlt:      10
+  mass:               10
+  stdGravParam:       10
+  soi:                481961761240
+  orbit:
+    semiMajorAxis:    3.006917e+13
+    eccentricity:     0
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       4.71
   epoch:              0
   orbiting:           0
   color:              0x11ff11
