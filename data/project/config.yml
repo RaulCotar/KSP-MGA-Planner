@@ -4,7 +4,7 @@ rendering:
   scale:              1.0e-9        # scale of the objects compared to real values
   fov:                80            # field of view of the camera
   nearPlane:          0.0000001     # near plane distance
-  farPlane:           1000000       # far plane distance
+  farPlane:           10000000      # far plane distance
 
 solarSystem:
   planetFarSize:      0.04          # size of planet sprites
@@ -22,8 +22,8 @@ orbit:
   epochOffset:        -631152000    # offset for bodies' epochs (reference for epoch 0), in seconds
 
 camera:
-  startDist:          2000          # distance from sun of start
-  maxDist:            20000         # maximum distance that can be zoomed out
+  startDist:          1500          # distance from sun of start
+  maxDist:            500000        # maximum distance that can be zoomed out
   minDistRadii:       1.5           # minimum distance to a body, in radii of the focused body
   dampingFactor:      0.5           # camera motion damping
   rotateSpeed:        0.5           # camera rotation speed
