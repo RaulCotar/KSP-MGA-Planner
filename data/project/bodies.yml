@@ -8,25 +8,6 @@
   color:              0xffff00
 
 - !!map
-id:                 33
-name:               Fictitious-D
-radius:             1
-atmosphereAlt:      1
-mass:               1
-stdGravParam:       1
-soi:                .inf
-orbit:
-  semiMajorAxis:    87908973645
-  eccentricity:     1
-  inclination:      0
-  argOfPeriapsis:   0
-  ascNodeLongitude: 0
-meanAnomaly0:       0
-epoch:              0
-orbiting:           0
-color:              0x11ff11
-
-- !!map
   id:                 1
   name:               Mercury
   radius:             2439700
@@ -611,3 +592,23 @@ color:              0x11ff11
   epoch:              0
   orbiting:           31
   color:              0xc5b1a4
+
+
+- !!map
+  id:                 33
+  name:               Fictitious-D
+  radius:             1
+  atmosphereAlt:      1
+  mass:               1
+  stdGravParam:       1
+  soi:                .inf
+  orbit:
+    semiMajorAxis:    87908973645
+    eccentricity:     1
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       0
+  epoch:              0
+  orbiting:           0
+  color:              0x11ff11
